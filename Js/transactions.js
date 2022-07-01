@@ -57,8 +57,8 @@ function checkLogged() {
 }
 
 function logout() {
-    sessionStorage.removeItem(logged);
-    localStorage.removeItem(session);
+    sessionStorage.removeItem("logged");
+    localStorage.removeItem("session");
 
     window.location.href = "index.html";
 }
